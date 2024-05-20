@@ -1,0 +1,107 @@
+/* styles/LoginPage.module.css */
+.background {
+  background-image: url("/background.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+
+.loginContainer {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.loginForm h1 {
+  color: #0d0c41;
+  margin-bottom: 10px;
+}
+
+.registerLink {
+  color: #0d0c41;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.loginInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loginButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #0d0c41;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.cancelButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forgotPasswordLink {
+  color: #d52b1e;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.terms {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.terms a {
+  color: #d52b1e;
+  text-decoration: none;
+}
+
+.terms strong {
+  font-weight: bold;
+}
