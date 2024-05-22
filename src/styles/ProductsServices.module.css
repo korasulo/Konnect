@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+  }
+  
+  .closeButton {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .balance p {
+    margin: 0;
+  }
+  
+  .balance h3 {
+    font-size: 36px;
+  }
+  
+  .balance span {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  .topUpButton {
+    background-color: #d52b1e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .refresh {
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .tab:hover {
+    border-bottom: 2px solid #d52b1e;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h3 {
+    font-size: 24px;
+  }
+  
+  .content p {
+    margin: 0;
+  }
+  
