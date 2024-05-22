@@ -1,0 +1,88 @@
+/* src/styles/Billing.module.css */
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .chartHeader {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 10px;
+  }
+  
+  .months {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 200px;
+  }
+  
+  .bar {
+    width: 7%;
+    background-color: #d52b1e;
+  }
+  
+  .latestBill {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .billDetails {
+    padding: 20px;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .billHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .billAmount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .paid {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
