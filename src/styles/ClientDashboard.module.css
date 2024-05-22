@@ -1,0 +1,102 @@
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  height: 50px;
+}
+
+.profileImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+.balanceSection, .cellularService, .flowerBoxSection, .offerSection {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.balanceSection {
+  flex: 2;
+}
+
+.rightSection {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cellularService {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceDetails {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.lowerRight {
+  display: flex;
+  gap: 20px;
+}
+
+.flowerBoxSection, .offerSection {
+  flex: 1;
+}
+
+.offerSection {
+  background-color: #d52b1e;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button, .offerButton {
+  background-color: #d52b1e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover, .offerButton:hover {
+  background-color: #bf0000;
+}
