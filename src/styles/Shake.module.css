@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+  }
+  
+  .main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .shakeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shakeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d52b1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shakeButton:hover {
+    background-color: #bf0000;
+  }
+  
+  .shakeAnimation {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #d52b1e;
+    border-radius: 50%;
+  }
+  
+  .shaking {
+    animation: shake 0.5s infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .giftSection {
+    text-align: center;
+  }
+  
+  .activateButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d52b1e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .activateButton:hover {
+    background-color: #bf0000;
+  }
+  
