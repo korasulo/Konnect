@@ -1,7 +1,9 @@
-
 .container {
   display: flex;
   min-height: 100vh;
+  margin-left: 250px;
+  padding: 20px;
+  width: calc(100% - 250px);
   background-color: #f8f8f8;
 }
 
