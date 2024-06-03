@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.main {
+  flex: 1;
+  width: calc(100% - 250px);
+  padding: 20px;
+  margin-left: 250px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.tabContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.tabButton {
+  flex: 1;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.tabButton.active {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.amountSelection,
+.customAmount {
+  margin-top: 20px;
+}
+
+.amounts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.amountButton {
+  padding: 10px 20px;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+}
+
+.amountButton.selected {
+  background-color: #0070f3;
+  color: #fff;
+}
+
+.paymentMethod {
+  margin-top: 20px;
+}
+
+.paymentInput {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.topUpButton {
+  background-color: #d52b1e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.topUpButton:hover {
+  background-color: #bf0000;
+}
+
+.addCardForm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.backButton {
+  align-self: flex-start;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.cardDetails {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.saveCard {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.continueButton {
+  background-color: #d52b1e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.continueButton:hover {
+  background-color: #bf0000;
+}
